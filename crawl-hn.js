@@ -2,10 +2,14 @@ const {TribeClient} = require('@tribeplatform/gql-client')
 const https = require('https')
 const {PostMappingTypeEnum} = require("@tribeplatform/gql-client/types");
 
+import { TribeClient } from "@tribeplatform/gql-client"
+
 const client = new TribeClient({
-    graphqlUrl: 'https://app.tribe.so/graphql',
-    accessToken: '',
+    clientId: "2304bcc3-58162c72dcc9",
+    clientSecret: "0551a8231b8b40159a50840802f408d2",
+    graphqlUrl: "https://app.tribe.so/graphql",
 })
+
 
 const maxItem = 30120143
 
